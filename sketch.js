@@ -38,6 +38,7 @@ function setup(){
 }
 
 function draw(){
+
     background(backgroundImg);
     Engine.update(engine);
     console.log(box2.body.position.x);
@@ -59,4 +60,6 @@ function draw(){
     log5.display();
 
     bird.display();
+
+    console.log("Learning GIT TOOL CMDS");
 }
